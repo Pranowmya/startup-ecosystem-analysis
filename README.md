@@ -22,31 +22,32 @@ This project analyzes **startup funding trends** and provides insights into the 
 
 ### 🥧 Industry Distribution
 
-![Industry Distribution](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/industry_distribution.png)
+<img width="765" height="490" alt="Screenshot 2026-03-17 190752" src="https://github.com/user-attachments/assets/7a0a78a2-25fa-4049-b199-fb6dc29cfb28" />
 
 ---
 
 ### 📍 Geographic Analysis
 
-![Location Analysis](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/location_analysis.png)
+<img width="888" height="598" alt="Screenshot 2026-03-17 190800" src="https://github.com/user-attachments/assets/8a4be489-53f5-4f9f-b75e-c9c2ba419b8c" />
+
 
 ---
 
 ### 📊 Funding Stage Analysis
 
-![Stage Analysis](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/stage_analysis.png)
+<img width="720" height="653" alt="Screenshot 2026-03-17 190825" src="https://github.com/user-attachments/assets/25e63f09-b7ff-4d79-a977-ed690d2ff60c" />
 
 ---
 
 ### 🏆 Investor Activity
 
-![Investor Analysis](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/investor_analysis.png)
+<img width="845" height="569" alt="Screenshot 2026-03-17 190836" src="https://github.com/user-attachments/assets/2c93b098-2ad2-474e-a973-2127730dc539" />
 
 ---
 
 ### 🔍 Valuation vs Funding
 
-![Valuation Scatter](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/valuation_scatter.png)
+<img width="780" height="601" alt="Screenshot 2026-03-17 190843" src="https://github.com/user-attachments/assets/528d56fb-4b7e-4d03-8d0f-7264d2cb201d" />
 
 ---
 
