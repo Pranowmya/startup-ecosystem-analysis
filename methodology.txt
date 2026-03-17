@@ -1,0 +1,61 @@
+# STARTUP ECOSYSTEM ANALYSIS
+
+## METHODOLOGY
+
+---
+
+## 1. Data Generation
+
+A synthetic dataset was created to simulate startup funding activities for the period 2020 to 2023. The dataset includes key attributes such as funding date, company name, industry, location, funding round, amount raised, lead investor, number of co-investors, and company valuation.
+
+The dataset was generated using Python libraries including pandas, numpy, and random. Care was taken to ensure that the dataset satisfies project constraints such as a minimum of 1000 records, multiple industries, various funding stages, and diverse geographic locations.
+
+---
+
+## 2. Data Preprocessing
+
+The dataset was cleaned and prepared to ensure consistency and reliability. The date column was converted into a standard datetime format to enable time-based analysis. Missing values were handled using appropriate techniques such as median imputation for numerical fields.
+
+Invalid entries, including negative funding values and inconsistent records, were removed. Duplicate records were checked and eliminated to maintain data integrity.
+
+---
+
+## 3. Data Analysis
+
+The dataset was analyzed using pandas to extract meaningful insights. Key metrics such as total funding, number of deals, average deal size, and number of unique companies were calculated.
+
+Time-based analysis was performed by grouping the data by year and month to identify funding trends. Industry-wise and location-wise aggregations were conducted to evaluate sector performance and geographic distribution. Investor activity was analyzed by counting the number of deals associated with each investor.
+
+---
+
+## 4. Visualization
+
+Data visualization techniques were applied using matplotlib and seaborn to represent trends and patterns clearly. A time series plot was used to illustrate funding growth over time.
+
+A pie chart was used to show the distribution of funding across industries. Bar charts were used for geographic and investor analysis, while a scatter plot was used to examine the relationship between funding amount and company valuation. All visualizations include appropriate titles, labels, and legends for clarity.
+
+---
+
+## 5. Insight Generation
+
+Based on the analysis and visualizations, key insights were derived regarding high-performing industries, leading startup hubs, and investor behavior. These insights provide a better understanding of funding patterns and can support data-driven investment decisions.
+
+---
+
+## 6. Assumptions
+
+The dataset used in this project is synthetic and does not represent real-world data. All funding values are assumed to be in USD. Each record represents an independent funding event.
+
+---
+
+## 7. Limitations
+
+Since the data is artificially generated, it does not capture real-world complexities such as economic conditions, market risks, or startup failures. The analysis is limited to the variables included in the dataset and does not incorporate external influencing factors.
+
+---
+
+## 8. Conclusion
+
+This methodology outlines a structured approach to generating, processing, analyzing, and visualizing startup funding data. It demonstrates how data analysis techniques can be applied to understand trends within a startup ecosystem and support informed decision-making.
+
+---
