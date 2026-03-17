@@ -4,103 +4,110 @@
 
 ## Dataset Preview
 
+```
 Dataset Created Successfully
 
-```
-    date        company_name    industry        location    funding_round  
-```
-
+        date        company_name    industry        location      funding_round
 0       2020-12-19  Startup_0      CyberSecurity  Mumbai        Series A
 1       2023-05-24  Startup_1      FinTech        New York      Series A
 2       2020-12-13  Startup_2      SaaS           Mumbai        Series B
 3       2022-12-24  Startup_3      FinTech        Berlin        Series A
 4       2021-01-30  Startup_4      SaaS           Hyderabad     Series C
 
-amount_raised    lead_investor    co_investors    valuation
-0  120,490,000      Accel            9               926,517,400
-1  119,843,100      Softbank         9               714,266,200
-2   18,765,300      Tiger Global     8               985,368,500
-3   29,516,630      Softbank         8               560,343,300
-4    9,263,771      Accel            8               237,067,800
+   amount_raised    lead_investor    co_investors    valuation
+0  120490000        Accel            9               926517400
+1  119843100        Softbank         9               714266200
+2   18765300        Tiger Global     8               985368500
+3   29516630        Softbank         8               560343300
+4    9263771        Accel            8               237067800
+```
 
 ---
 
 ## Data Cleaning Status
 
+```
 Data Cleaned Successfully
+```
 
 ---
 
 ## Basic Metrics
 
-Total Funding Amount       : 92,439,458,140
-Total Number of Deals      : 1,200
-Average Deal Size          : 77,032,881.78
-Total Unique Companies     : 1,200
+| Metric            | Value          |
+| ----------------- | -------------- |
+| Total Funding     | 92,439,458,140 |
+| Total Deals       | 1,200          |
+| Average Deal Size | 77,032,881.78  |
+| Unique Companies  | 1,200          |
 
 ---
 
 ## Year-wise Funding
 
-2020                      : 24,520,750,000
-2021                      : 24,419,190,000
-2022                      : 21,161,220,000
-2023                      : 22,338,310,000
+| Year | Total Funding  |
+| ---- | -------------- |
+| 2020 | 24,520,750,000 |
+| 2021 | 24,419,190,000 |
+| 2022 | 21,161,220,000 |
+| 2023 | 22,338,310,000 |
 
 ---
 
 ## Industry Analysis
 
-## Industry         | Total Funding      | Average Funding   | Deals
-
-AI               | 9,809,244,000      | 77,238,140        | 127
-AgriTech         | 11,289,590,000     | 73,788,160        | 153
-CleanTech        | 11,156,310,000     | 77,474,390        | 144
-CyberSecurity    | 10,910,700,000     | 82,035,370        | 133
-Ecommerce        | 9,208,540,000      | 70,834,930        | 130
-EdTech           | 11,380,610,000     | 79,032,040        | 144
-FinTech          | 10,999,080,000     | 77,458,280        | 142
-HealthTech       | 9,036,287,000      | 79,265,670        | 114
-SaaS             | 8,649,094,000      | 76,540,660        | 113
+| Industry      | Total Funding  | Avg Funding | Deals |
+| ------------- | -------------- | ----------- | ----- |
+| AI            | 9,809,244,000  | 77,238,140  | 127   |
+| AgriTech      | 11,289,590,000 | 73,788,160  | 153   |
+| CleanTech     | 11,156,310,000 | 77,474,390  | 144   |
+| CyberSecurity | 10,910,700,000 | 82,035,370  | 133   |
+| Ecommerce     | 9,208,540,000  | 70,834,930  | 130   |
+| EdTech        | 11,380,610,000 | 79,032,040  | 144   |
+| FinTech       | 10,999,080,000 | 77,458,280  | 142   |
+| HealthTech    | 9,036,287,000  | 79,265,670  | 114   |
+| SaaS          | 8,649,094,000  | 76,540,660  | 113   |
 
 ---
 
 ## Geographic Analysis
 
-## Location         | Total Funding      | Average Funding   | Deals
-
-Bangalore        | 9,611,275,000      | 82,855,820        | 116
-Berlin           | 8,944,580,000      | 75,164,530        | 119
-Chennai          | 9,842,158,000      | 74,561,810        | 132
-Delhi NCR        | 9,166,965,000      | 72,180,830        | 127
-Hyderabad        | 10,252,700,000     | 79,478,290        | 129
-London           | 11,312,980,000     | 82,576,520        | 137
-Mumbai           | 9,512,728,000      | 79,272,730        | 120
-New York         | 6,834,734,000      | 71,944,570        | 95
-Pune             | 8,158,517,000      | 76,967,140        | 106
-San Francisco    | 8,802,820,000      | 73,973,280        | 119
+| Location      | Total Funding  | Avg Funding | Deals |
+| ------------- | -------------- | ----------- | ----- |
+| Bangalore     | 9,611,275,000  | 82,855,820  | 116   |
+| Berlin        | 8,944,580,000  | 75,164,530  | 119   |
+| Chennai       | 9,842,158,000  | 74,561,810  | 132   |
+| Delhi NCR     | 9,166,965,000  | 72,180,830  | 127   |
+| Hyderabad     | 10,252,700,000 | 79,478,290  | 129   |
+| London        | 11,312,980,000 | 82,576,520  | 137   |
+| Mumbai        | 9,512,728,000  | 79,272,730  | 120   |
+| New York      | 6,834,734,000  | 71,944,570  | 95    |
+| Pune          | 8,158,517,000  | 76,967,140  | 106   |
+| San Francisco | 8,802,820,000  | 73,973,280  | 119   |
 
 ---
 
 ## Top Investors
 
-Lightspeed        : 167 deals
-Matrix            : 159 deals
-Softbank          : 154 deals
-Sequoia           : 153 deals
-Y Combinator      : 152 deals
-Tiger Global      : 142 deals
-Benchmark         : 138 deals
-Accel             : 135 deals
+| Investor     | Deals |
+| ------------ | ----- |
+| Lightspeed   | 167   |
+| Matrix       | 159   |
+| Softbank     | 154   |
+| Sequoia      | 153   |
+| Y Combinator | 152   |
+| Tiger Global | 142   |
+| Benchmark    | 138   |
+| Accel        | 135   |
 
 ---
 
 ## Key Observations
 
-* Funding activity remains consistently high across all years.
-* AgriTech, EdTech, and CleanTech sectors receive significant investment.
-* London and Hyderabad show strong funding concentration.
-* Early and growth-stage investments dominate deal volume.
-* A small group of investors participates in a large number of deals.
+* Funding is consistently strong across all years.
+* AgriTech, EdTech, and CleanTech sectors receive high investments.
+* London and Hyderabad emerge as major funding hubs.
+* Early and growth-stage investments dominate the ecosystem.
+* A small group of investors accounts for a large number of deals.
 
 ---
