@@ -16,8 +16,7 @@ This project analyzes **startup funding trends** and provides insights into the 
 ## 📊 Visualizations
 
 ### 📅 Funding Trend
-
-![Funding Trend](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO/main/funding_trend.png)
+<img width="814" height="569" alt="Screenshot 2026-03-17 190744" src="https://github.com/user-attachments/assets/61523a1a-2d7d-428e-8205-9ee5780ffc2a" />
 
 ---
 
